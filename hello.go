@@ -4,7 +4,7 @@ import (
 	"gocv.io/x/gocv"
 )
 
-func main() {
+go func main() {
 	webcam, _ := gocv.VideoCaptureDevice(0)
 	window := gocv.NewWindow("Aaaooba -  Primeiro teste com OpenCV e GO !!!")
 	img := gocv.NewMat()
